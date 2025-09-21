@@ -24,5 +24,4 @@ public class AccommodationSearch {
         return null;
     }
 }
-
 //Author = Rashad Razooludheen(S4112596)
