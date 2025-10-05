@@ -8,10 +8,10 @@ package Worldwanderer;
  */
 public class WebAppUI {
 
-    private SearchController controller;
+    private SearchService controller;
 
     public WebAppUI() {
-        controller = new SearchController();
+        controller = new SearchService();
     }
 
     /**

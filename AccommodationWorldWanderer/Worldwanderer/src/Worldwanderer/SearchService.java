@@ -5,12 +5,12 @@ package Worldwanderer;
  * 
  * Responsible for validating details, sending API requests, and handling results.
  */
-public class SearchController {
+public class SearchService {
 
     private AccommodationAPI api;
     private ComparisonService comparisonService;
 
-    public SearchController() {
+    public SearchService() {
         api = new AccommodationAPI();
         comparisonService = new ComparisonService();
     }
